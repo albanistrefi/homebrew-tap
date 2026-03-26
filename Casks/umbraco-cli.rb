@@ -3,7 +3,7 @@ cask "umbraco-cli" do
   name "umbraco-cli"
   desc "Command-line client for the Umbraco Management API"
   homepage "https://github.com/albanist/umbraco_CLI"
-  version "0.2.1"
+  version "0.2.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "umbraco-cli" do
   on_macos do
     on_intel do
       url "https://github.com/albanist/umbraco_CLI/releases/download/v#{version}/umbraco-cli_#{version}_macOS_x86_64.tar.gz"
-      sha256 "eaa90ef45cd6a0e19594ff35fb4c2f4d155804e528300c06e376889da317322f"
+      sha256 "a0fc6d22f6be7be1f149a0c7ff630a70aa0c48ab2ed57e7f7b87a97217809001"
     end
     on_arm do
       url "https://github.com/albanist/umbraco_CLI/releases/download/v#{version}/umbraco-cli_#{version}_macOS_arm64.tar.gz"
-      sha256 "eec7a7cf9022248c1112b9cd5d2ee13702fca13e5a99144d3a013906ac131f17"
+      sha256 "8d12100468555795563b49cd898cce266175aae0d8974ec7fd5f00db074843a7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/albanist/umbraco_CLI/releases/download/v#{version}/umbraco-cli_#{version}_Linux_x86_64.tar.gz"
-      sha256 "fcadcc1e2631782f1f4561e1ff9c99a47a73786b2442d500a4453b3abbc3f259"
+      sha256 "d4c0beeb4498c136fdd4446253470601f4a15130c90f174f5a0d0966f3fb1df0"
     end
     on_arm do
       url "https://github.com/albanist/umbraco_CLI/releases/download/v#{version}/umbraco-cli_#{version}_Linux_arm64.tar.gz"
-      sha256 "fd99f07d2c5efac950f7e3b01487f38d3aeb992632c9ba61d8131200a149906d"
+      sha256 "cfef80cf4ad698fb6f3fadfec32292d55cd887d1c757243dedde7335e96a43d2"
     end
   end
 
